@@ -1,10 +1,9 @@
 class CfgPatches {
-	class Tenthed_Armor_Misriah_Base {
+	class TripSeventh_Armor_Misriah_Base {
 		author = "Den";
 		name = "777th Armor Base - Misriah";
 		requiredAddons[] = {
 			"OPTRE_Core",
-			"Tenthed_core",
 			"MA_Armor"
 		};
 		weapons[] = {};
