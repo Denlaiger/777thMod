@@ -1,11 +1,11 @@
-	class Tenthed_M56A_Helmet_Akira : Tenthed_M56SR_Helmet {
+	class TripSeventh_M56A_Helmet_PMC : TripSeventh_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56S-R Helmet (Akira)";
+		displayName="[777th] M56S-R Helmet (PMC)";
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
-			"Tenthed_Armor_Misriah_Named\data\Akira\HR_ODST_Helmet_Akira_CO.paa",
+			"777thArmour\data\777th_Helmet.paa",
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
@@ -16,10 +16,10 @@
 			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		};
 	};
-	class Tenthed_M56R_Vest_Akira : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_PMC : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Armor (Akira)";
+		displayName="[777th] M56R Armor (PMC)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= { // Change folder to Armor-Misriah\data and put files into that folder. example "Armor-Misriah\data\akira_helmet.paa"
@@ -27,8 +27,7 @@
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"Tenthed_Armor_Misriah_Named\data\Akira\H3_Upper_Armor_Akira_co.paa", // Upper armor texture
-			"Tenthed_Armor_Misriah_Named\data\Akira\H3_Lower_Armor_Akira_co.paa",
+			"777thArmour\data\777th_Upper_Armor.paa", // Upper armor texture
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa", // Sniper Shoulders
