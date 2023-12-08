@@ -1,7 +1,7 @@
 class CfgPatches {
-	class Tenthed_Armor_Misriah_Named {
-		author = "Akira, Tiny";
-		name = "10th Armor - Misriah Named";
+	class TripSeventh_Armor_Misriah_Named {
+		author = "Den, Villainess";
+		name = "777th Armor - Misriah Armours";
 		requiredAddons[] = {
 			"MA_Armor",
 			"Tenthed_Armor_Misriah_Base"
