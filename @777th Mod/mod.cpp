@@ -1,8 +1,8 @@
-author = "Silver, Kodiak, Crow, Akira, Tiny";
-name = "10th ODST Mod";
+author = "Denlaiger, Villainess";
+name = "777th PMC.Co Mod";
 picture = "logo.png"; 
 logo = "logo.paa";
-overview = "10th ODST custom armors, weapons, vehicles and equipment mod.";
+overview = "777th PMC.Co custom armors.";
 actionName = "GitHub";
-action = "https://github.com/asullivanr/10thArmorMod";
+action = "https://github.com/Denlaiger/777thMod";
 version = 1;
