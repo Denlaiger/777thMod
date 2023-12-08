@@ -955,7 +955,7 @@ class cfgWeapons {
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
-			"Tenthed_Armor_Misriah_Base\data\enlisted\HR_ODST_Helmet_Enlisted_co.paa",
+			"777thArmour\data\777th_Helmet.paa",
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
 		};
 		class ItemInfo: ItemInfo {
