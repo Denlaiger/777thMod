@@ -1359,8 +1359,8 @@ class CfgVehicles {
 			"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck_co.paa",
-			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+			"777thArmour\Data\777th_Backpack.paa"
+			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
 	};
 	// LR backpack
@@ -1393,7 +1393,8 @@ class CfgVehicles {
 			"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+			"777thArmour\Data\777th_Backpack.paa"
+			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
@@ -1410,7 +1411,8 @@ class CfgVehicles {
 			//"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
+			"777thArmour\Data\777th_Backpack.paa"
+			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
 	};
 
