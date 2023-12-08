@@ -1,7 +1,7 @@
 class CfgPatches {
 	class Tenthed_Armor_Misriah_Base {
-		author = "Akira";
-		name = "10th Armor Base - Misriah";
+		author = "Den";
+		name = "777th Armor Base - Misriah";
 		requiredAddons[] = {
 			"OPTRE_Core",
 			"Tenthed_core",
@@ -9,11 +9,11 @@ class CfgPatches {
 		};
 		weapons[] = {};
 		units[] = {
-			"Tenthed_M56S_BDU",
-			"Tenthed_M56S_BDU_Green",
-			"Tenthed_M56S_BDU_Desert",
-			"Tenthed_M56S_BDU_WhiteSilver",
-			"Tenthed_M56S_BDU_Grey"
+			"TripSeventh_M56S_BDU",
+			"TripSeventh_M56S_BDU_Green",
+			"TripSeventh_M56S_BDU_Desert",
+			"TripSeventh_M56S_BDU_WhiteSilver",
+			"TripSeventh_M56S_BDU_Grey"
 		};
 	};
 };
@@ -32,12 +32,12 @@ class cfgWeapons {
 		class ItemInfo;
 	};
 	
-	class Tenthed_Helmet_Base: ItemCore {
+	class TripSeventh_Helmet_Base: ItemCore {
 		scope=0;
 		scopeArsenal=0;
 		author="Misriah Armory";
 		ace_hearing_protection=1;
-		displayName="[10th] Base Helmet";
+		displayName="[777th] Base Helmet";
 		model="";
 		picture="";
 		hiddenSelections[]= {
@@ -75,11 +75,11 @@ class cfgWeapons {
 		};
 	};
 
-	class Tenthed_Vest_Base: V_PlateCarrier1_rgr {
+	class TripSeventh_Vest_Base: V_PlateCarrier1_rgr {
 		scope=0;
 		scopeArsenal=0;
 		author="Misriah Armory";
-		displayName="[10th] Base Vest";
+		displayName="[777th] Base Vest";
 		model="";
 		picture="";
 		hiddenSelections[]= {
@@ -216,10 +216,10 @@ class cfgWeapons {
 	};
 
 	// M56S-R (Base ODST Helmet)
-	class Tenthed_M56SR_Helmet : Tenthed_Helmet_Base {
+	class TripSeventh_M56SR_Helmet : TripSeventh_Helmet_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56S-R Helmet";
+		displayName="[777th] M56S-R Helmet";
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
@@ -235,11 +235,11 @@ class cfgWeapons {
 		};
 	};
 
-	// M56-A "Air Assault" (Horus Helmet)
-	class Tenthed_M56A_Helmet: Tenthed_Helmet_Base {
+	// M56-A "AirAssault"
+	class TripSeventh_M56A_Helmet: TripSeventh_Helmet_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56-A Helmet";
+		displayName="[777th] M56-A Helmet";
 		model="MA_Armor\data\Helmets\AA\AA_Helmet.p3d";
 		picture="MA_Armor\data\Icons\AA_Helmet.paa";
 		hiddenSelectionsTextures[]= {
@@ -255,12 +255,12 @@ class cfgWeapons {
 		};
 	};
 
-	//M56-G "Gungnir" (Anubis Helmet)
-	class Tenthed_M56G_Helmet: Tenthed_Helmet_Base {
+	//M56-G "Gungnir" 
+	class TripSeventh_M56G_Helmet: TripSeventh_Helmet_Base {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armory & aclarke064";
-		displayName="[10th] M56-G Helmet";
+		displayName="[777th] M56-G Helmet";
 		model="MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
 		picture="MA_Armor\data\Icons\Gungnir_Helmet.paa";
 		hiddenSelectionsTextures[]= {
@@ -276,11 +276,11 @@ class cfgWeapons {
 		};
 	};
 
-	// M56-E "EOD" (Osiris Helmet)
-	class Tenthed_M56E_Helmet: Tenthed_Helmet_Base {
+	// M56-E "EOD" 
+	class TripSeventh_M56E_Helmet: TripSeventh_Helmet_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56-E Helmet";
+		displayName="[777th] M56-E Helmet";
 		model="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
 		picture="MA_Armor\data\Icons\EOD_Helm.paa";
 		hiddenSelectionsTextures[]= {
@@ -296,10 +296,10 @@ class cfgWeapons {
 		};
 	};
 	// M65-S "Recon"
-	class Tenthed_M56_Scout_Helmet: Tenthed_Helmet_Base {
+	class TripSeventh_M56_Scout_Helmet: TripSeventh_Helmet_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M65-S Helmet";
+		displayName="[777th] M65-S Helmet";
 		model="MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
 		picture="MA_Armor\data\Icons\H4_Scout_Helmet.paa";
 		hiddenSelectionsTextures[]= {
@@ -313,10 +313,10 @@ class cfgWeapons {
 	};
 
 	// Rifleman - no radio
-	class Tenthed_M56R_Vest_Rifleman : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Rifleman : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor";
+		displayName="[777th] M56R Combat Armor";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -364,10 +364,10 @@ class cfgWeapons {
 		};
 	};
 	// Rifleman - Radio right
-	class Tenthed_M56R_Vest_Rifleman_ODST_radio_right : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Rifleman_ODST_radio_right : Tenthed_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (ODST Radio Shoulder)";
+		displayName="[777th] M56R Combat Armor (ODST Radio Shoulder)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -414,10 +414,10 @@ class cfgWeapons {
 		};
 	};
 	// Rifleman - Radio right Green
-	class Tenthed_M56R_Vest_Rifleman_radio_right : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Rifleman_radio_right : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Radio Shoulder)";
+		displayName="[777th] M56R Combat Armor (Radio Shoulder)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -464,10 +464,10 @@ class cfgWeapons {
 		};
 	};
 
-	class Tenthed_M56R_Recon_Vest: Tenthed_Vest_Base {
+	class TripSeventh_M56R_Recon_Vest: TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Recon)";
+		displayName="[777th] M56R Combat Armor (Recon)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -515,10 +515,10 @@ class cfgWeapons {
 			};
 		};
 	};
-	class Tenthed_M56R_Light_Vest: Tenthed_Vest_Base {
+	class TripSeventh_M56R_Light_Vest: TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Light)";
+		displayName="[777th] M56R Combat Armor (Light)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -570,10 +570,10 @@ class cfgWeapons {
 			};
 		};
 	};
-	class Tenthed_M56R_Medic_Vest: Tenthed_Vest_Base {
+	class TripSeventh_M56R_Medic_Vest: TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Medic)";
+		displayName="[777th] M56R Combat Armor (Medic)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -618,10 +618,10 @@ class cfgWeapons {
 			};
 		};
 	};
-	class Tenthed_M56R_Vest_Sniper : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Sniper : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (Sniper)";
+		displayName="[777th] M56R Combat Armor (Sniper)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -674,10 +674,10 @@ class cfgWeapons {
 			};
 		};
 	};
-	class Tenthed_M56R_Vest_CQB : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_CQB : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor (CQB)";
+		displayName="[777th] M56R Combat Armor (CQB)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -733,10 +733,10 @@ class cfgWeapons {
 	
 	// Enlisted Variants
 	// Enlisted Rifleman - no radio
-	class Tenthed_M56R_Vest_Enlisted_Rifleman : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Enlisted_Rifleman : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor Enlisted (Rifleman)";
+		displayName="[777th] M56R Combat Armor Enlisted (Rifleman)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -784,10 +784,10 @@ class cfgWeapons {
 		};
 	};
 	// Enlisted Rifleman - Radio right
-	class Tenthed_M56R_Vest_Enlisted_Rifleman_radio_right : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Enlisted_Rifleman_radio_right : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor Enlisted (Rifleman - Radio)";
+		displayName="[777th] M56R Combat Armor Enlisted (Rifleman - Radio)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -834,10 +834,10 @@ class cfgWeapons {
 		};
 	};
 	// Enlisted Sniper
-	class Tenthed_M56R_Vest_Enlisted_Sniper : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Enlisted_Sniper : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor Enlisted (Sniper)";
+		displayName="[777th] M56R Combat Armor Enlisted (Sniper)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -891,10 +891,10 @@ class cfgWeapons {
 		};
 	};
 	// Enlisted CQB
-	class Tenthed_M56R_Vest_Enlisted_CQB : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Enlisted_CQB : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56R Combat Armor Enlisted (CQB)";
+		displayName="[777th] M56R Combat Armor Enlisted (CQB)";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -949,10 +949,10 @@ class cfgWeapons {
 	};
 
 	// Enlisted Helmet
-	class Tenthed_M56SR_Enlisted_Helmet : Tenthed_M56SR_Helmet {
+	class TripSeventh_M56SR_Enlisted_Helmet : TripSeventh_M56SR_Helmet {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] Enlisted M56S-R Helmet";
+		displayName="[777th] Enlisted M56S-R Helmet";
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
@@ -965,292 +965,96 @@ class cfgWeapons {
 	};
 
 	// Uniforms
-	class Tenthed_M56S_BDU: U_B_CombatUniform_mcam {
+	class TripSeventh_M56S_BDU: U_B_CombatUniform_mcam {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S - Black";
+		displayName="[777th] M56S - Black";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
 			uniformType = "Neopren";
-			uniformClass="Tenthed_M56S_BDU_Base";
+			uniformClass="TripSeventh_M56S_BDU_Base";
 			containerClass="Supply150";
 			mass=10;
 			modelSides[]={6};
 		};
 	};
 
-	class Tenthed_M56S_BDU_Green: U_B_CombatUniform_mcam {
+	class TripSeventh_M56S_BDU_Green: U_B_CombatUniform_mcam {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S - Green";
+		displayName="[777th] M56S - Green";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
 			uniformType = "Neopren";
-			uniformClass="Tenthed_M56S_BDU_Base_Green";
+			uniformClass="TripSeventh_M56S_BDU_Base_Green";
 			containerClass="Supply150";
 			mass=10;
 			modelSides[]={6};
 		};
 	};
 
-	class Tenthed_M56S_BDU_Desert: U_B_CombatUniform_mcam {
+	class TripSeventh_M56S_BDU_Desert: U_B_CombatUniform_mcam {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S - Desert";
+		displayName="[777th] M56S - Desert";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
 			uniformType = "Neopren";
-			uniformClass="Tenthed_M56S_BDU_Base_Desert";
+			uniformClass="TripSeventh_M56S_BDU_Base_Desert";
 			containerClass="Supply150";
 			mass=10;
 			modelSides[]={6};
 		};
 	};
 
-	class Tenthed_M56S_BDU_WhiteSilver: U_B_CombatUniform_mcam {
+	class TripSeventh_M56S_BDU_WhiteSilver: U_B_CombatUniform_mcam {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S - Silver";
+		displayName="[777th] M56S - Silver";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
 			uniformType = "Neopren";
-			uniformClass="Tenthed_M56S_BDU_Base_WhiteSilver";
+			uniformClass="TripSeventh_M56S_BDU_Base_WhiteSilver";
 			containerClass="Supply150";
 			mass=10;
 			modelSides[]={6};
 		};
 	};
 
-	class Tenthed_M56S_BDU_Grey: U_B_CombatUniform_mcam {
+	class TripSeventh_M56S_BDU_Grey: U_B_CombatUniform_mcam {
 		scope=2;
 		scopeArsenal=2;
 		author="Misriah Armoury";
-		displayName="[10th] M56S - Grey";
+		displayName="[777th] M56S - Grey";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		class ItemInfo: UniformItem {
 			uniformModel="-";
 			uniformType = "Neopren";
-			uniformClass="Tenthed_M56S_BDU_Base_Grey";
+			uniformClass="TripSeventh_M56S_BDU_Base_Grey";
 			containerClass="Supply150";
 			mass=10;
 			modelSides[]={6};
 		};
 	};
 };
-class CfgVehicleCLasses {
-	class Tenthed_Soldier_Class {
-		dlc="Tenthed";
-		displayName="Soldier";
-		author="10th ODST - Akira";
-		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
-	};
-};
-class CfgVehicles {
-	class OPTRE_UNSC_Army_Soldier_WDL;
-	class Tenthed_BDU_Base: OPTRE_UNSC_Army_Soldier_WDL {
-		class HitPoints
-		{
-			class HitFace
-			{
-				armor=1;
-				material=-1;
-				name="face_hub";
-				passThrough=0.80000001;
-				radius=0.079999998;
-				explosionShielding=0.1;
-				minimalHit=0.0099999998;
-			};
-			class HitNeck: HitFace
-			{
-				armor=4;
-				material=-1;
-				name="neck";
-				passThrough=0.80000001;
-				radius=0.1;
-				explosionShielding=0.5;
-				minimalHit=0.0099999998;
-			};
-			class HitHead: HitNeck
-			{
-				armor=1;
-				material=-1;
-				name="head";
-				passThrough=0.80000001;
-				radius=0.2;
-				explosionShielding=0.5;
-				minimalHit=0.0099999998;
-				depends="HitFace max HitNeck";
-			};
-			class HitPelvis: HitHead
-			{
-				armor=8;
-				material=-1;
-				name="pelvis";
-				passThrough=0.80000001;
-				radius=0.23999999;
-				explosionShielding=1;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class HitAbdomen: HitPelvis
-			{
-				armor=4;
-				material=-1;
-				name="spine1";
-				passThrough=0.80000001;
-				radius=0.16;
-				explosionShielding=1;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitDiaphragm: HitAbdomen
-			{
-				armor=4;
-				material=-1;
-				name="spine2";
-				passThrough=0.80000001;
-				radius=0.18000001;
-				explosionShielding=2.4000001;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitChest: HitDiaphragm
-			{
-				armor=4;
-				material=-1;
-				name="spine3";
-				passThrough=0.80000001;
-				radius=0.18000001;
-				explosionShielding=2.4000001;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitBody: HitChest
-			{
-				armor=1000;
-				material=-1;
-				name="body";
-				passThrough=1;
-				radius=0;
-				explosionShielding=2.4000001;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
-			};
-			class HitArms: HitBody
-			{
-				armor=6;
-				material=-1;
-				name="arms";
-				passThrough=1;
-				radius=0.1;
-				explosionShielding=0.30000001;
-				visual="injury_hands";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class HitHands: HitArms
-			{
-				armor=6;
-				material=-1;
-				name="hands";
-				passThrough=1;
-				radius=0.1;
-				explosionShielding=0.30000001;
-				visual="injury_hands";
-				minimalHit=0.0099999998;
-				depends="HitArms";
-			};
-			class HitLegs: HitHands
-			{
-				armor=6;
-				material=-1;
-				name="legs";
-				passThrough=1;
-				radius=0.14;
-				explosionShielding=0.30000001;
-				visual="injury_legs";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class Incapacitated: HitLegs
-			{
-				armor=1000;
-				material=-1;
-				name="body";
-				passThrough=1;
-				radius=0;
-				explosionShielding=1;
-				visual="";
-				minimalHit=0;
-				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
-			};
-			class HitLeftArm
-			{
-				armor=2;
-				material=-1;
-				name="hand_l";
-				passThrough=1;
-				radius=0.079999998;
-				explosionShielding=1;
-				visual="injury_hands";
-				minimalHit=0.0099999998;
-			};
-			class HitRightArm: HitLeftArm
-			{
-				name="hand_r";
-			};
-			class HitLeftLeg
-			{
-				armor=2;
-				material=-1;
-				name="leg_l";
-				passThrough=1;
-				radius=0.1;
-				explosionShielding=1;
-				visual="injury_legs";
-				minimalHit=0.0099999998;
-			};
-			class HitRightLeg: HitLeftLeg
-			{
-				name="leg_r";
-			};
-			class ACE_HDBracket
-			{
-				armor=1;
-				material=-1;
-				name="head";
-				passThrough=0;
-				radius=1;
-				explosionShielding=1;
-				visual="";
-				minimalHit=0;
-				depends="HitHead";
-			};
-		};
-	};
-
-	class Tenthed_Uniform_Base: Tenthed_BDU_Base {
+	class TripSeventh_Uniform_Base: TripSeventh_BDU_Base {
 		scope=0;
 		scopeCurator=0;
 		side=1;
-		author="Akira";
+		author="Den";
 		UniformClass="";
 		vehicleClass="";
 		model="";
@@ -1275,10 +1079,10 @@ class CfgVehicles {
 		};
 		hiddenSelectionsTextures[]={};
 	};
-	class Tenthed_M56S_BDU_Base: Tenthed_Uniform_Base {
+	class TripSeventh_M56S_BDU_Base: TripSeventh_Uniform_Base {
 		scope=1;
-		UniformClass="Tenthed_M56S_BDU";
-		vehicleClass="Tenthed_Soldier_Class";
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
 		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
@@ -1286,61 +1090,61 @@ class CfgVehicles {
 			"MA_Armor\data\Uniforms\H3_ODST\H3_Undersuit_co.paa"
 		};
 	};
-	class Tenthed_M56S_BDU_Base_Green: Tenthed_Uniform_Base {
+	class TripSeventh_M56S_BDU_Base_Green: TripSeventh_Uniform_Base {
 		scope=1;
-		UniformClass="Tenthed_M56S_BDU";
-		vehicleClass="Tenthed_Soldier_Class";
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
 		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_green_co.paa"
+			
 		};
 	};
-	class Tenthed_M56S_BDU_Base_Desert: Tenthed_Uniform_Base {
+	class TripSeventh_M56S_BDU_Base_Desert: TripSeventh_Uniform_Base {
 		scope=1;
-		UniformClass="Tenthed_M56S_BDU";
-		vehicleClass="Tenthed_Soldier_Class";
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
 		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_desert_co.paa"
+			
 		};
 	};
-	class Tenthed_M56S_BDU_Base_WhiteSilver: Tenthed_Uniform_Base {
+	class TripSeventh_M56S_BDU_Base_WhiteSilver: TripSeventh_Uniform_Base {
 		scope=1;
-		UniformClass="Tenthed_M56S_BDU";
-		vehicleClass="Tenthed_Soldier_Class";
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
 		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_whitesilver_co.paa"
+			
 		};
 	};
-	class Tenthed_M56S_BDU_Base_Grey: Tenthed_Uniform_Base {
+	class TripSeventh_M56S_BDU_Base_Grey: TripSeventh_Uniform_Base {
 		scope=1;
-		UniformClass="Tenthed_M56S_BDU";
-		vehicleClass="Tenthed_Soldier_Class";
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
 		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
 		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"Tenthed_Armor_Misriah_Base\data\uniforms\H3_Undersuit_grey_co.paa"
+		
 		};
 	};
 
 	// Backpacks
 	class B_Kitbag_rgr;
-	class Tenthed_Backpack_Base: B_Kitbag_rgr {
+	class TripSeventh_Backpack_Base: B_Kitbag_rgr {
 		scope=0;
 		scopeArsenal=0;
-		faction = "Tenthed_UnitFact_Main";
-		editorCategory = "Tenthed_EditorCategory_Items";
-		editorSubcategory = "Tenthed_EditorSubcategory_Objects_Backpacks";
+		faction = "TripSeventh_UnitFact_Main";
+		editorCategory = "TripSeventh_EditorCategory_Items";
+		editorSubcategory = "TripSeventh_EditorSubcategory_Objects_Backpacks";
 		author="Misriah Armory";
-		displayname="[10th] Base Backpack";
+		displayname="[777th] Base Backpack";
 		model="";
 		maximumLoad=250;
 		mass=50;
@@ -1349,10 +1153,10 @@ class CfgVehicles {
 		};
 	};
 	// Base backpack
-	class Tenthed_M56S_Rucksack: Tenthed_Backpack_Base {
+	class TripSeventh_M56S_Rucksack: TripSeventh_Backpack_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[10th] M56S Rucksack";
+		displayName="[777th] M56S Rucksack";
 		model="MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck.p3d";
 		picture="MA_Armor\data\Icons\ODST_Rucksack.paa";
 		maximumLoad=400;
@@ -1368,8 +1172,8 @@ class CfgVehicles {
 		};
 	};
 	// LR backpack
-	class Tenthed_M56S_Rucksack_Radio: Tenthed_M56S_Rucksack {
-		displayName="[10th] M56S Rucksack (ODST Radio)";
+	class TripSeventh_M56S_Rucksack_Radio: TripSeventh_M56S_Rucksack {
+		displayName="[777th] M56S Rucksack (ODST Radio)";
 		maximumLoad = 350;
 		mass = 50;
 		hiddenSelections[]= {
@@ -1377,7 +1181,6 @@ class CfgVehicles {
 			"camo2"
 		};
 		hiddenSelectionsTextures[]= {
-			"Tenthed_Armor_Misriah_Base\data\backpacks\Enlisted_Ruck_co.paa",
 			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_ODST_co.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
@@ -1388,8 +1191,8 @@ class CfgVehicles {
 		tf_hasLRradio=1;
 	};
 	// Medic Backpack
-	class Tenthed_M56S_Rucksack_Medic: Tenthed_M56S_Rucksack {
-		displayName="[10th] M56S Rucksack (Medic)";
+	class TripSeventh_M56S_Rucksack_Medic: TripSeventh_M56S_Rucksack {
+		displayName="[777th] M56S Rucksack (Medic)";
 		maximumLoad = 400;
 		mass = 40;
 		hiddenSelections[]= {
@@ -1398,7 +1201,6 @@ class CfgVehicles {
 			"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"Tenthed_Armor_Misriah_Base\data\backpacks\Medic_Ruck_co.paa",
 			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
@@ -1408,37 +1210,18 @@ class CfgVehicles {
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
 		tf_hasLRradio=1;
 	};
-	class Tenthed_M56S_Rucksack_Medic_Radio: Tenthed_M56S_Rucksack_Medic {
-		displayName="[10th] M56S Rucksack (Medic - Radio)";
+	class TripSeventh_M56S_Rucksack_Medic_Radio: TripSeventh_M56S_Rucksack_Medic {
+		displayName="[777th] M56S Rucksack (Medic - Radio)";
 		hiddenSelections[]= {
 			"camo1",
 			"camo2",
 			//"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"Tenthed_Armor_Misriah_Base\data\backpacks\Medic_Ruck_co.paa",
 			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_Green_co.paa"
 		};
 	};
 
-	// AR-CB Rucksack
-	class B_Carryall_oli;
-	class Tenthed_ARCB: B_Carryall_oli {
-		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
-		displayName="[10th] AR-CB Rucksack";
-		model="\a3\weapons_f\empty.p3d";
-		author="Akira";
-		maximumLoad=150;
-		mass=50;
-
-		tf_encryptionCode="tf_west_radio_code";
-		tf_dialog="rt1523g_radio_dialog";
-		tf_subtype="digital_lr";
-		tf_range=25000;
-		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
-		tf_hasLRradio=1;
 	};
 
 };
