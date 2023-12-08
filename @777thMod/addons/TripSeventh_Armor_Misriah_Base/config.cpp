@@ -742,7 +742,7 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"Tenthed_Armor_Misriah_Base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"777thArmour\Data\777th_Upper_Armor.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
@@ -793,12 +793,10 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
-			"Tenthed_Armor_Misriah_Base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"777thArmour\Data\777th_Upper_Armor.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"Tenthed_Armor_Misriah_Base\data\enlisted\Sniper_Enlisted_co.paa",
-			"Tenthed_Armor_Misriah_Base\data\enlisted\CQB_Enlisted_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
 		};
 		class ItemInfo: ItemInfo {
