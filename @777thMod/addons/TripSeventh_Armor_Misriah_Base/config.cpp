@@ -1373,7 +1373,7 @@ class CfgVehicles {
 			"camo2"
 		};
 		hiddenSelectionsTextures[]= {
-			"MA_Armor\data\Backpacks\ODST_Rucksack\Attachments\Backpack_Radio_ODST_co.paa"
+			"777thArmour\Data\777th_Backpack.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
