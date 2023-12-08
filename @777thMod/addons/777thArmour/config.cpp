@@ -1,5 +1,5 @@
 class CfgPatches {
-	class TripSeventh_Armor_Misriah_Named {
+	class TripSeventh_Armor_Misriah_Base {
 		author = "Den, Villainess";
 		name = "777th Armor - Misriah Armours";
 		requiredAddons[] = {
