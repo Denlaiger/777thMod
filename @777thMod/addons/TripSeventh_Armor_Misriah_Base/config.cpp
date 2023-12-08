@@ -363,7 +363,7 @@ class cfgWeapons {
 		};
 	};
 	// Rifleman - Radio right
-	class TripSeventh_M56R_Vest_Rifleman_ODST_radio_right : Tenthed_Vest_Base {
+	class TripSeventh_M56R_Vest_Rifleman_ODST_radio_right : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
 		displayName="[777th] M56R Combat Armor (ODST Radio Shoulder)";
