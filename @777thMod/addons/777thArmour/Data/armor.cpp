@@ -6,9 +6,9 @@
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
 			"777thArmour\data\777th_Helmet.paa",
-			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
-			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
+			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_gold_co.paa" // Gold Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_red_co.paa" // Red Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_white_co.paa" // White Visor
 		};
