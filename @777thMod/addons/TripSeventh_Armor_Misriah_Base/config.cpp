@@ -1359,7 +1359,7 @@ class CfgVehicles {
 			"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"777thArmour\Data\777th_Backpack.paa"
+			"777thArmour\Data\777th_Backpack.paa",
 			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
 	};
@@ -1393,7 +1393,7 @@ class CfgVehicles {
 			"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"777thArmour\Data\777th_Backpack.paa"
+			"777thArmour\Data\777th_Backpack.paa",
 			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
@@ -1411,7 +1411,7 @@ class CfgVehicles {
 			//"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"777thArmour\Data\777th_Backpack.paa"
+			"777thArmour\Data\777th_Backpack.paa",
 			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
 	};
