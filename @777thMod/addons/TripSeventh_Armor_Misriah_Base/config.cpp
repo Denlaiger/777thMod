@@ -1338,8 +1338,8 @@ class CfgVehicles {
 		author="Misriah Armory";
 		displayname="[777th] Base Backpack";
 		model="";
-		maximumLoad=250;
-		mass=50;
+		maximumLoad=550;
+		mass=40;
 		hiddenSelections[]= {
 			"camo"
 		};
@@ -1351,7 +1351,7 @@ class CfgVehicles {
 		displayName="[777th] M56S Rucksack";
 		model="MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck.p3d";
 		picture="MA_Armor\data\Icons\ODST_Rucksack.paa";
-		maximumLoad=400;
+		maximumLoad=550;
 		mass=50;
 		hiddenSelections[]= {
 			"camo1",
@@ -1366,14 +1366,16 @@ class CfgVehicles {
 	// LR backpack
 	class TripSeventh_M56S_Rucksack_Radio: TripSeventh_M56S_Rucksack {
 		displayName="[777th] M56S Rucksack (ODST Radio)";
-		maximumLoad = 350;
-		mass = 50;
+		maximumLoad = 550;
+		mass = 40;
 		hiddenSelections[]= {
 			"camo1",
-			"camo2"
+			"camo2",
+			"Radio"
 		};
 		hiddenSelectionsTextures[]= {
-			"777thArmour\Data\777th_Backpack.paa"
+			"777thArmour\Data\777th_Backpack.paa",
+			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
@@ -1385,7 +1387,7 @@ class CfgVehicles {
 	// Medic Backpack
 	class TripSeventh_M56S_Rucksack_Medic: TripSeventh_M56S_Rucksack {
 		displayName="[777th] M56S Rucksack (Medic)";
-		maximumLoad = 400;
+		maximumLoad = 550;
 		mass = 40;
 		hiddenSelections[]= {
 			"camo1",
