@@ -8,7 +8,11 @@ class CfgPatches {
 		};
 		weapons[] = {};
 		units[] = {
-			"TripSeventh_M56S_BDU"
+			"TripSeventh_M56S_BDU",
+			"TripSeventh_M56S_BDU_Green",
+			"TripSeventh_M56S_BDU_Desert",
+			"TripSeventh_M56S_BDU_WhiteSilver",
+			"TripSeventh_M56S_BDU_Grey"
 		};
 	};
 };
@@ -307,6 +311,425 @@ class cfgWeapons {
 		};
 	};
 
+	// Rifleman - no radio
+	class TripSeventh_M56R_Vest_Rifleman : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+	// Rifleman - Radio right
+	class TripSeventh_M56R_Vest_Rifleman_ODST_radio_right : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor (ODST Radio Shoulder)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+	// Rifleman - Radio right Green
+	class TripSeventh_M56R_Vest_Rifleman_radio_right : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor (Radio Shoulder)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+
+	class TripSeventh_M56R_Recon_Vest: TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor (Recon)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower"
+			};
+		};
+	};
+	class TripSeventh_M56R_Light_Vest: TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor (Light)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"Reach_Forearm_Left",
+				"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Forearm_Vent_Left",
+				"Forearm_Vent_Right"
+			};
+		};
+	};
+	class TripSeventh_M56R_Medic_Vest: TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor (Medic)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Medic_Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Medical_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower"
+			};
+		};
+	};
+	class TripSeventh_M56R_Vest_Sniper : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor (Sniper)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				//"Reach_Sniper_Pauldron_Left",
+				//"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
+	class TripSeventh_M56R_Vest_CQB : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor (CQB)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Upper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Sniper_Shoulders\Sniper_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\CQB_Shoulders\CQB_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_Green_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				//"Reach_CQB_Pauldron_Left",
+				//"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
+	
 	// Enlisted Variants
 	// Enlisted Rifleman - no radio
 	class TripSeventh_M56R_Vest_Enlisted_Rifleman : TripSeventh_Vest_Base {
@@ -359,7 +782,168 @@ class cfgWeapons {
 			};
 		};
 	};
-
+	// Enlisted Rifleman - Radio right
+	class TripSeventh_M56R_Vest_Enlisted_Rifleman_radio_right : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor Enlisted (Rifleman - Radio)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"777thArmour\Data\777th_Upper_Armor.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+	// Enlisted Sniper
+	class TripSeventh_M56R_Vest_Enlisted_Sniper : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor Enlisted (Sniper)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Sniper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\CQB_Enlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				//"Reach_Sniper_Pauldron_Left",
+				//"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
+	// Enlisted CQB
+	class TripSeventh_M56R_Vest_Enlisted_CQB : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor Enlisted (CQB)";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Reach_Armor_Upper_Enlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\Sniper_Enlisted_co.paa",
+			"Tenthed_Armor_Misriah_Base\data\enlisted\CQB_Enlisted_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				//"Reach_CQB_Pauldron_Left",
+				//"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
+				"Canisters"
+			};
+		};
+	};
 
 	// Enlisted Helmet
 	class TripSeventh_M56SR_Enlisted_Helmet : TripSeventh_M56SR_Helmet {
@@ -395,6 +979,74 @@ class cfgWeapons {
 		};
 	};
 
+	class TripSeventh_M56S_BDU_Green: U_B_CombatUniform_mcam {
+		scope=2;
+		scopeArsenal=2;
+		author="Misriah Armoury";
+		displayName="[777th] M56S - Green";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		class ItemInfo: UniformItem {
+			uniformModel="-";
+			uniformType = "Neopren";
+			uniformClass="TripSeventh_M56S_BDU_Base_Green";
+			containerClass="Supply150";
+			mass=10;
+			modelSides[]={6};
+		};
+	};
+
+	class TripSeventh_M56S_BDU_Desert: U_B_CombatUniform_mcam {
+		scope=2;
+		scopeArsenal=2;
+		author="Misriah Armoury";
+		displayName="[777th] M56S - Desert";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		class ItemInfo: UniformItem {
+			uniformModel="-";
+			uniformType = "Neopren";
+			uniformClass="TripSeventh_M56S_BDU_Base_Desert";
+			containerClass="Supply150";
+			mass=10;
+			modelSides[]={6};
+		};
+	};
+
+	class TripSeventh_M56S_BDU_WhiteSilver: U_B_CombatUniform_mcam {
+		scope=2;
+		scopeArsenal=2;
+		author="Misriah Armoury";
+		displayName="[777th] M56S - Silver";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		class ItemInfo: UniformItem {
+			uniformModel="-";
+			uniformType = "Neopren";
+			uniformClass="TripSeventh_M56S_BDU_Base_WhiteSilver";
+			containerClass="Supply150";
+			mass=10;
+			modelSides[]={6};
+		};
+	};
+
+	class TripSeventh_M56S_BDU_Grey: U_B_CombatUniform_mcam {
+		scope=2;
+		scopeArsenal=2;
+		author="Misriah Armoury";
+		displayName="[777th] M56S - Grey";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		class ItemInfo: UniformItem {
+			uniformModel="-";
+			uniformType = "Neopren";
+			uniformClass="TripSeventh_M56S_BDU_Base_Grey";
+			containerClass="Supply150";
+			mass=10;
+			modelSides[]={6};
+		};
+	};
+};
 class CfgVehicleCLasses {
 	class TripSeventh_Soldier_Class {
 		dlc="TripSeventh";
@@ -630,7 +1282,50 @@ class CfgVehicles {
 			"MA_Armor\data\Uniforms\H3_ODST\H3_Undersuit_co.paa"
 		};
 	};
-
+	class TripSeventh_M56S_BDU_Base_Green: TripSeventh_Uniform_Base {
+		scope=1;
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
+		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		hiddenSelectionsTextures[]=
+		{
+			
+		};
+	};
+	class TripSeventh_M56S_BDU_Base_Desert: TripSeventh_Uniform_Base {
+		scope=1;
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
+		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		hiddenSelectionsTextures[]=
+		{
+			
+		};
+	};
+	class TripSeventh_M56S_BDU_Base_WhiteSilver: TripSeventh_Uniform_Base {
+		scope=1;
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
+		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		hiddenSelectionsTextures[]=
+		{
+			
+		};
+	};
+	class TripSeventh_M56S_BDU_Base_Grey: TripSeventh_Uniform_Base {
+		scope=1;
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
+		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		hiddenSelectionsTextures[]=
+		{
+		
+		};
+	};
 
 	// Backpacks
 	class B_Kitbag_rgr;
@@ -649,7 +1344,6 @@ class CfgVehicles {
 			"camo"
 		};
 	};
-	
 	// Base backpack
 	class TripSeventh_M56S_Rucksack: TripSeventh_Backpack_Base {
 		scope=2;
@@ -677,7 +1371,7 @@ class CfgVehicles {
 		hiddenSelections[]= {
 			"camo1",
 			"camo2",
-			//"Radio"
+			"Radio"
 		};
 		hiddenSelectionsTextures[]= {
 			"777thArmour\Data\777th_Backpack.paa",
@@ -690,6 +1384,43 @@ class CfgVehicles {
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
 		tf_hasLRradio=1;
 	};
+	// Medic Backpack
+	class TripSeventh_M56S_Rucksack_Medic: TripSeventh_M56S_Rucksack {
+		displayName="[777th] M56S Rucksack (Medic)";
+		maximumLoad = 550;
+		mass = 40;
+		hiddenSelections[]= {
+			"camo1",
+			"camo2",
+			"Radio"
+		};
+		hiddenSelectionsTextures[]= {
+			"777thArmour\Data\777th_Backpack.paa",
+			"777thArmour\Data\777th_Backpack_Radio.paa"
+		};
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=25000;
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
+		tf_hasLRradio=1;
+	};
+	class TripSeventh_M56S_Rucksack_Medic_Radio: TripSeventh_M56S_Rucksack_Medic {
+		displayName="[777th] M56S Rucksack (Medic - Radio)";
+		hiddenSelections[]= {
+			"camo1",
+			"camo2",
+			//"Radio"
+		};
+		hiddenSelectionsTextures[]= {
+			"777thArmour\Data\777th_Backpack.paa",
+			"777thArmour\Data\777th_Backpack_Radio.paa"
+		};
+	};
+
+	};
+
+};
 
 	};
 
