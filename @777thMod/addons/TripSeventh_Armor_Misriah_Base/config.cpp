@@ -630,50 +630,7 @@ class CfgVehicles {
 			"MA_Armor\data\Uniforms\H3_ODST\H3_Undersuit_co.paa"
 		};
 	};
-	class TripSeventh_M56S_BDU_Base_Green: TripSeventh_Uniform_Base {
-		scope=1;
-		UniformClass="TripSeventh_M56S_BDU";
-		vehicleClass="TripSeventh_Soldier_Class";
-		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
-		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
-		hiddenSelectionsTextures[]=
-		{
-			
-		};
-	};
-	class TripSeventh_M56S_BDU_Base_Desert: TripSeventh_Uniform_Base {
-		scope=1;
-		UniformClass="TripSeventh_M56S_BDU";
-		vehicleClass="TripSeventh_Soldier_Class";
-		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
-		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
-		hiddenSelectionsTextures[]=
-		{
-			
-		};
-	};
-	class TripSeventh_M56S_BDU_Base_WhiteSilver: TripSeventh_Uniform_Base {
-		scope=1;
-		UniformClass="TripSeventh_M56S_BDU";
-		vehicleClass="TripSeventh_Soldier_Class";
-		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
-		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
-		hiddenSelectionsTextures[]=
-		{
-			
-		};
-	};
-	class TripSeventh_M56S_BDU_Base_Grey: TripSeventh_Uniform_Base {
-		scope=1;
-		UniformClass="TripSeventh_M56S_BDU";
-		vehicleClass="TripSeventh_Soldier_Class";
-		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
-		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
-		hiddenSelectionsTextures[]=
-		{
-		
-		};
-	};
+
 
 	// Backpacks
 	class B_Kitbag_rgr;
