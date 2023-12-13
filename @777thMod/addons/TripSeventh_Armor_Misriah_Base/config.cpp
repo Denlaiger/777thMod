@@ -8,11 +8,7 @@ class CfgPatches {
 		};
 		weapons[] = {};
 		units[] = {
-			"TripSeventh_M56S_BDU",
-			"TripSeventh_M56S_BDU_Green",
-			"TripSeventh_M56S_BDU_Desert",
-			"TripSeventh_M56S_BDU_WhiteSilver",
-			"TripSeventh_M56S_BDU_Grey"
+			"TripSeventh_M56S_BDU"
 		};
 	};
 };
@@ -1371,53 +1367,20 @@ class CfgVehicles {
 		hiddenSelections[]= {
 			"camo1",
 			"camo2",
-			"Radio"
-		};
-		hiddenSelectionsTextures[]= {
-			"777thArmour\Data\777th_Backpack.paa",
-			"777thArmour\Data\777th_Backpack_Radio.paa"
-		};
-		tf_encryptionCode="tf_west_radio_code";
-		tf_dialog="rt1523g_radio_dialog";
-		tf_subtype="digital_lr";
-		tf_range=25000;
-		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
-		tf_hasLRradio=1;
-	};
-	// Medic Backpack
-	class TripSeventh_M56S_Rucksack_Medic: TripSeventh_M56S_Rucksack {
-		displayName="[777th] M56S Rucksack (Medic)";
-		maximumLoad = 550;
-		mass = 40;
-		hiddenSelections[]= {
-			"camo1",
-			"camo2",
-			"Radio"
-		};
-		hiddenSelectionsTextures[]= {
-			"777thArmour\Data\777th_Backpack.paa",
-			"777thArmour\Data\777th_Backpack_Radio.paa"
-		};
-		tf_encryptionCode="tf_west_radio_code";
-		tf_dialog="rt1523g_radio_dialog";
-		tf_subtype="digital_lr";
-		tf_range=25000;
-		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
-		tf_hasLRradio=1;
-	};
-	class TripSeventh_M56S_Rucksack_Medic_Radio: TripSeventh_M56S_Rucksack_Medic {
-		displayName="[777th] M56S Rucksack (Medic - Radio)";
-		hiddenSelections[]= {
-			"camo1",
-			"camo2",
 			//"Radio"
 		};
 		hiddenSelectionsTextures[]= {
 			"777thArmour\Data\777th_Backpack.paa",
 			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=25000;
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
+		tf_hasLRradio=1;
 	};
-
+	
 	};
 
 };
