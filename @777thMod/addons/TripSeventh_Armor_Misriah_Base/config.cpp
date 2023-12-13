@@ -395,56 +395,6 @@ class cfgWeapons {
 		};
 	};
 
-	class TripSeventh_M56S_BDU_Desert: U_B_CombatUniform_mcam {
-		scope=2;
-		scopeArsenal=2;
-		author="Misriah Armoury";
-		displayName="[777th] M56S - Desert";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
-		class ItemInfo: UniformItem {
-			uniformModel="-";
-			uniformType = "Neopren";
-			uniformClass="TripSeventh_M56S_BDU_Base_Desert";
-			containerClass="Supply150";
-			mass=10;
-			modelSides[]={6};
-		};
-	};
-
-	class TripSeventh_M56S_BDU_WhiteSilver: U_B_CombatUniform_mcam {
-		scope=2;
-		scopeArsenal=2;
-		author="Misriah Armoury";
-		displayName="[777th] M56S - Silver";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
-		class ItemInfo: UniformItem {
-			uniformModel="-";
-			uniformType = "Neopren";
-			uniformClass="TripSeventh_M56S_BDU_Base_WhiteSilver";
-			containerClass="Supply150";
-			mass=10;
-			modelSides[]={6};
-		};
-	};
-
-	class TripSeventh_M56S_BDU_Grey: U_B_CombatUniform_mcam {
-		scope=2;
-		scopeArsenal=2;
-		author="Misriah Armoury";
-		displayName="[777th] M56S - Grey";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
-		class ItemInfo: UniformItem {
-			uniformModel="-";
-			uniformType = "Neopren";
-			uniformClass="TripSeventh_M56S_BDU_Base_Grey";
-			containerClass="Supply150";
-			mass=10;
-			modelSides[]={6};
-		};
-	};
 };
 class CfgVehicleCLasses {
 	class TripSeventh_Soldier_Class {
