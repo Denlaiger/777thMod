@@ -395,23 +395,6 @@ class cfgWeapons {
 		};
 	};
 
-	class TripSeventh_M56S_BDU_Green: U_B_CombatUniform_mcam {
-		scope=2;
-		scopeArsenal=2;
-		author="Misriah Armoury";
-		displayName="[777th] M56S - Green";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
-		class ItemInfo: UniformItem {
-			uniformModel="-";
-			uniformType = "Neopren";
-			uniformClass="TripSeventh_M56S_BDU_Base_Green";
-			containerClass="Supply150";
-			mass=10;
-			modelSides[]={6};
-		};
-	};
-
 	class TripSeventh_M56S_BDU_Desert: U_B_CombatUniform_mcam {
 		scope=2;
 		scopeArsenal=2;
