@@ -1422,6 +1422,3 @@ class CfgVehicles {
 
 };
 
-	};
-
-};
