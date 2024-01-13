@@ -13,12 +13,12 @@ class CfgPatches {
 	};
 };
 class CfgVehicles {
-	class OPTRE_UNSC_Sparrowhawk;
+	class OPTRE_AV22_Sparrowhawk;
 
 	class Eventhandlers;
 
 	// Base type Sparrowhawk
-	class TripSeventh_Sparrowhawk_Base : OPTRE_UNSC_Sparrowhawk {
+	class TripSeventh_Sparrowhawk_Base : OPTRE_AV22_Sparrowhawk {
 		scope = 1;
 		scopeCurator = 1;
 		scopeArsenal = 1;
@@ -30,19 +30,17 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {
 			"TripSeventh_Vehicles\Sparrowhawk\data\Body_01_CO.paa"
 		};
-		maxSpeed = 350;
+		maxSpeed = 500;
 		weapons[] = {
 			"OPTRE_GUA23A",
 			"CMFlareLauncher",
-			"Laserdesignator_pilotCamera",
-			"OPTRE_missiles_C2GMLS"
+			"Laserdesignator_pilotCamera"
 		};
 		magazines[] = {
 			"OPTRE_2000Rnd_20mm_HEIAP",
 			"240Rnd_CMFlare_Chaff_Magazine",
-			"Laserbatteries",
-			"OPTRE_8Rnd_C2GMLS_missiles",
-			"OPTRE_8Rnd_C2GMLS_missiles"
+			"Laserbatteries"
+
 		};
 		class AMSData {
 			AMSEnabled = 1;
