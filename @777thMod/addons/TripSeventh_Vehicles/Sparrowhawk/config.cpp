@@ -28,7 +28,13 @@ class CfgVehicles {
 		editorCategory = "TripSeventh_EditorCategory_Main";
 		editorSubcategory = "TripSeventh_EditorSubcategory_Objects_Sparrowhawk";
 		hiddenSelectionsTextures[] = {
-			"TripSeventh_Vehicles\Sparrowhawk\data\Body_01_CO.paa"
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_01_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_02_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_03_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_04_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_05_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\autocannon_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\feed_autocannon_standard_co.paa"
 		};
 		maxSpeed = 500;
 		weapons[] = {
@@ -79,7 +85,13 @@ class CfgVehicles {
 		editorCategory = "TripSeventh_EditorCategory_Main";
 		editorSubcategory = "TripSeventh_EditorSubcategory_Objects_Sparrowhawk";
 		hiddenSelectionsTextures[]= {
-			"TripSeventh_Vehicles\Sparrowhawk\data\Body_01_CO.paa"
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_01_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_02_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_03_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_04_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\body_05_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\autocannon_standard_co.paa",
+			"OPTRE_Vehicles_Air\sparrowhawk\data\feed_autocannon_standard_co.paa"
 		};
 	};
 };
