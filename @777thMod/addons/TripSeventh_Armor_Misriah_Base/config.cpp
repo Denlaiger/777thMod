@@ -313,7 +313,7 @@ class cfgWeapons {
 	class TripSeventh_M56R_Vest_Enlisted_Rifleman : TripSeventh_Vest_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[777th] M56R Combat Armor Enlisted (Rifleman)";
+		displayName="[777th] M56R Combat Armor Enlisted";
 		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
 		hiddenSelectionsTextures[]= {
@@ -321,12 +321,63 @@ class cfgWeapons {
 			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
 			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
 			"777thArmour\Data\777th_Upper_Armor.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"777thArmour\Data\777th_Lower_Armor.paa",
+			//"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			//"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
 			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
-			"Tenthed_Armor_Misriah_Base\data\enlisted\Sniper_Enlisted_co.paa",
-			"Tenthed_Armor_Misriah_Base\data\enlisted\CQB_Enlisted_co.paa",
-			"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa"
+			//"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",
+			"777thArmour\Data\777th_Arm_Vents.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters"
+			};
+		};
+	};
+	// Enlisted Rifleman Subdued- no radio
+	class TripSeventh_M56R_Vest_Enlisted_Rifleman_Subdued : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor Enlisted-Subdued";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"777thArmour\Data\777th_Subdued_Upper_Armor.paa",
+			"777thArmour\Data\777th_Subdued_Lower_Armor.paa",
+			//"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			//"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			//"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",
+			"777thArmour\Data\777th_Arm_Vents.paa"
 		};
 		class ItemInfo: ItemInfo {
 			vestType="Rebreather";
@@ -370,6 +421,21 @@ class cfgWeapons {
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
 		hiddenSelectionsTextures[]= {
 			"777thArmour\data\777th_Helmet.paa",
+			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
+		};
+		class ItemInfo: ItemInfo {
+			uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		};
+	};
+	// Enlisted Helmet Subdued
+	class TripSeventh_M56SR_Enlisted_Helmet_Subdued : TripSeventh_M56SR_Helmet {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] Enlisted M56S-R Helmet-Subdued";
+		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
+		hiddenSelectionsTextures[]= {
+			"777thArmour\data\777th_Subdued_Helmet.paa",
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"
 		};
 		class ItemInfo: ItemInfo {
@@ -650,6 +716,7 @@ class CfgVehicles {
 			"camo"
 		};
 	};
+
 	// Base backpack
 	class TripSeventh_M56S_Rucksack: TripSeventh_Backpack_Base {
 		scope=2;
@@ -669,6 +736,26 @@ class CfgVehicles {
 			"777thArmour\Data\777th_Backpack_Radio.paa"
 		};
 	};
+	// Base backpack
+	class TripSeventh_M56S_Rucksack_Subdued: TripSeventh_Backpack_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56S Rucksack-Subdued";
+		model="MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck.p3d";
+		picture="MA_Armor\data\Icons\ODST_Rucksack.paa";
+		maximumLoad=550;
+		mass=50;
+		hiddenSelections[]= {
+			"camo1",
+			"camo2",
+			"Radio"
+		};
+		hiddenSelectionsTextures[]= {
+			"777thArmour\Data\777th_Subdued_Backpack.paa",
+			"777thArmour\Data\777th_Backpack_Radio.paa"
+		};
+	};
+
 	// LR backpack
 	class TripSeventh_M56S_Rucksack_Radio: TripSeventh_M56S_Rucksack {
 		displayName="[777th] M56S Rucksack (ODST Radio)";
@@ -682,6 +769,27 @@ class CfgVehicles {
 		hiddenSelectionsTextures[]= {
 			"777thArmour\Data\777th_Backpack.paa",
 			"777thArmour\Data\777th_Backpack_Radio.paa"
+		};
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=25000;
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel";
+		tf_hasLRradio=1;
+	};
+	// LR backpack
+	class TripSeventh_M56S_Rucksack_Radio_Subdued: TripSeventh_M56S_Rucksack {
+		displayName="[777th] M56S Rucksack-Subdued (ODST Radio)";
+		maximumLoad = 550;
+		mass = 40;
+		hiddenSelections[]= {
+			"camo1",
+			"camo2",
+			//"Radio"
+		};
+		hiddenSelectionsTextures[]= {
+			"777thArmour\Data\777th_Subdued_Backpack.paa",
+			"777thArmour\Data\777th_Subdued_Backpack_Radio.paa"
 		};
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
