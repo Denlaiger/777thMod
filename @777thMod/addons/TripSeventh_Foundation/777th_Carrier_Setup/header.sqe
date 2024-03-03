@@ -1,0 +1,22 @@
+version=54;
+name="777th Carrier Setup";
+author="Denlaiger";
+category="EdSubcat_StaticShips";
+requiredAddons[]=
+{
+	"OPTRE_BW_DoorConsole",
+	"TCF_Objects",
+	"OPTRE_Vehicles_HEV",
+	"OPTRE_ACE_Compat",
+	"A3_Structures_F_Bootcamp_VR_Helpers",
+	"A3_Supplies_F_Heli_CargoNets",
+	"OPTRE_Vehicles_Cryopod",
+	"OPTRE_Corvette",
+	"OPTRE_Corvette_archer",
+	"OPTRE_UNSC_Structure_Arctic_Military",
+	"OPTRE_Corvette_Interior",
+	"OPTRE_UNSC_Units_Army",
+	"A3_Modules_F_Curator_Curator",
+	"A3_Modules_F_Multiplayer",
+	"ace_fortify"
+};

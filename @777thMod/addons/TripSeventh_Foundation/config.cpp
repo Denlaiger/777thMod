@@ -10,14 +10,23 @@ class CfgPatches {
     };
 };
 class CfgFactionClasses {
-    // Primary 777th PMC faction
+	// Primary 777th PMC faction
     class TripSeventh_UnitFact_Main {
         displayname = "[777th] PMC Faction";
+        priority = 1;
+        side = 0;
+        icon = "\TripSeventh_Foundation\logo.paa";
+        flag = "\TripSeventh_Foundation\logo.paa";
+    };
+	// 777th Enemies
+    class T7th_Ins {
+        displayname = "[777th] OPFOR";
         priority = 1;
         side = 1;
         icon = "\TripSeventh_Foundation\logo.paa";
         flag = "\TripSeventh_Foundation\logo.paa";
     };
+
 };
 class CfgEditorCategories {
     // Primary unit category used for units
@@ -84,4 +93,3 @@ class CfgEditorSubcategories {
     };
 
 };
-

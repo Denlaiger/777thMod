@@ -8,7 +8,10 @@ class CfgPatches {
 		};
 		weapons[] = {};
 		units[] = {
-			"TripSeventh_M56S_BDU"
+			"TripSeventh_M56S_BDU",
+			"TripSeventh_M56S_CADPAT",
+			"TripSeventh_M56S_HexTiger"
+			
 		};
 	};
 };
@@ -294,7 +297,7 @@ class cfgWeapons {
 	class TripSeventh_M56_Scout_Helmet: TripSeventh_Helmet_Base {
 		scope=2;
 		scopeArsenal=2;
-		displayName="[777th] M65-S Helmet";
+		displayName="[777th] M56-S Helmet";
 		model="MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
 		picture="MA_Armor\data\Icons\H4_Scout_Helmet.paa";
 		hiddenSelectionsTextures[]= {
@@ -357,6 +360,65 @@ class cfgWeapons {
 				"H3_Armor_Upper",
 				"H3_Armor_Lower",
 				"Canisters"
+			};
+		};
+	};
+// Enlisted Rifleman Light - no radio
+	class TripSeventh_M56R_Vest_Enlisted_Rifleman_Light : TripSeventh_Vest_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[777th] M56R Combat Armor Enlisted Light";
+		model="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+		picture="MA_Armor\data\Icons\H3ODST_Vest.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Vests\H3_ODST\H3_Upper_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",
+			"MA_Armor\data\Vests\H3_ODST\Addons\Thigh_Pouch_co.paa",
+			"777thArmour\Data\777th_Upper_Armor.paa",
+			"777thArmour\Data\777th_Lower_Armor.paa",
+			//"MA_Armor\data\Vests\Reach_ODST\Reach_Armor_Lower_co.paa",
+			//"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",
+			"MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",
+			//"MA_Armor\data\Vests\Reach_ODST\Addons\Reach_Shoulder_Radio\Shoulder_Radio_ODST_co.paa",
+			"777thArmour\Data\777th_Arm_Vents.paa"
+		};
+		class ItemInfo: ItemInfo {
+			vestType="Rebreather";
+			uniformModel="MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass="Supply350";
+			hiddenSelections[]= {
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"camo6",
+				"camo7",
+				"camo8",
+				"camo9",
+				"camo10",
+				"H3_Forearm_Left",
+				"H3_Forearm_Right",
+				"H3_Pauldron_Left",
+				"H3_Pauldron_Right",
+				"Reach_Shoulder_Radio_Left",
+				"Reach_Shoulder_Radio_Right",
+				"Reach_Sniper_Pauldron_Left",
+				"Reach_Sniper_Pauldron_Right",
+				"Reach_CQB_Pauldron_Left",
+				"Reach_CQB_Pauldron_Right",
+				"Thigh_Pouch",
+				"H3_Armor_Upper",
+				"H3_Armor_Lower",
+				"Canisters",
+				//"Reach_Armor_Upper",
+				//"Reach_Armor_Lower",
+				//"Reach_Forearm_Left",
+				//"Reach_Forearm_Right",
+				"Forearm_Vent_Left",
+				"Forearm_Vent_Right",
+				"Reach_Pauldron_Left",
+				"Reach_Pauldron_Right"
 			};
 		};
 	};
@@ -455,6 +517,39 @@ class cfgWeapons {
 			uniformModel="-";
 			uniformType = "Neopren";
 			uniformClass="TripSeventh_M56S_BDU_Base";
+			containerClass="Supply150";
+			mass=10;
+			modelSides[]={6};
+		};
+	};
+	
+	class TripSeventh_M56S_BDU_CADPAT: U_B_CombatUniform_mcam {
+		scope=2;
+		scopeArsenal=2;
+		author="Villainess";
+		displayName="[777th] M56S - CADPAT";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		class ItemInfo: UniformItem {
+			uniformModel="-";
+			uniformType = "Neopren";
+			uniformClass="TripSeventh_M56S_BDU_Base_CADPAT";
+			containerClass="Supply150";
+			mass=10;
+			modelSides[]={6};
+		};
+	};
+	class TripSeventh_M56S_BDU_HexTiger: U_B_CombatUniform_mcam {
+		scope=2;
+		scopeArsenal=2;
+		author="Villainess";
+		displayName="[777th] M56S - Hex Tiger";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		class ItemInfo: UniformItem {
+			uniformModel="-";
+			uniformType = "Neopren";
+			uniformClass="TripSeventh_M56S_BDU_Base_HexTiger";
 			containerClass="Supply150";
 			mass=10;
 			modelSides[]={6};
@@ -698,6 +793,29 @@ class CfgVehicles {
 		};
 	};
 
+	class TripSeventh_M56S_BDU_Base_CADPAT: TripSeventh_Uniform_Base {
+		scope=1;
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
+		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"777thArmour\data\777th_CADPAT_Undersuit.paa"
+		};
+	};
+	
+	class TripSeventh_M56S_BDU_Base_HexTiger: TripSeventh_Uniform_Base {
+		scope=1;
+		UniformClass="TripSeventh_M56S_BDU";
+		vehicleClass="TripSeventh_Soldier_Class";
+		model="MA_Armor\data\Uniforms\H3_ODST\H3_ODST_Uniform.p3d";
+		picture="MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"777thArmour\data\777th_HexTiger_Undersuits.paa"
+		};
+	};
 
 	// Backpacks
 	class B_Kitbag_rgr;

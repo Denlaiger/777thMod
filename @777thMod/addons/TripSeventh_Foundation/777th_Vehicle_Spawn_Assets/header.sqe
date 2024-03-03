@@ -1,0 +1,12 @@
+version=54;
+name="777th Vehicle Spawn Assets";
+author="Denlaiger";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"OPTRE_BW_DoorConsole",
+	"TCF_Objects",
+	"A3_Structures_F_Bootcamp_VR_Helpers",
+	"OPTRE_Vehicles_HEV",
+	"OPTRE_ACE_Compat"
+};
